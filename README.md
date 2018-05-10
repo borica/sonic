@@ -1,1 +1,3 @@
-# sonic
+# Sonic
+
+Dummy Sonic Game
