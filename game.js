@@ -27,7 +27,7 @@ var gameOver = {
 }
 var mainState = {
     // Preloads assets to be instanciated and rendered
-    preload: function(){
+    preload: function(){     
         //World Blocks
         game.load.image('greenHill',                    'assets/world/greenHillBigger.jpg'),
         game.load.image('groundTile',                   'assets/world/groundTile.png');
@@ -40,7 +40,7 @@ var mainState = {
         game.load.image('sanic',                        'assets/sanic.png');
         
         //Ugandan
-        game.load.image('ugandanKnucles',                        'assets/ugandan_knucles.png');
+        game.load.image('ugandanKnucles',               'assets/ugandan_knucles.png');
         
         //Interactable Objects
         game.load.spritesheet('ring',                   'assets/interactable/rings.png', 35, 33);
