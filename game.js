@@ -570,7 +570,7 @@ var mainState = {
     //Used for debbuging purposes
 }
 
-var game = new Phaser.Game(1024, 702);
+var game = new Phaser.Game(1024, 702, Phaser.AUTO, 'sonic-game');
 game.state.add('main',      mainState);
 game.state.add('gameOver',  gameOver);
 game.state.start('main');
